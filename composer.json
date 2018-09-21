@@ -1,0 +1,15 @@
+{
+    "name": "luisfavila/fenixedu-drive-sdk",
+    "authors": [
+        {
+            "name": "Luis Ávila",
+            "email": "filipe@avilaesousa.com"
+        }
+    ],
+    "description": "FenixEdu Drive PHP SDK",
+    "version": "1.0.0",
+    "require": {
+        "php": "^5.3.3 || ^7.0",
+        "php-curl-class/php-curl-class": "^7.3"
+    }
+}
