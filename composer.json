@@ -7,7 +7,10 @@
         }
     ],
     "description": "FenixEdu Drive PHP SDK",
-    "version": "1.0.0",
+    "version": "1.0.1",
+    "autoload": {
+        "psr-4": { "FenixEdu\\Drive\\": "src/" }
+    },
     "require": {
         "php": "^5.3.3 || ^7.0",
         "php-curl-class/php-curl-class": "^7.3"

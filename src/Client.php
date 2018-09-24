@@ -42,7 +42,6 @@ class Client {
             'client_secret' => $this->serviceAppSecret,
             'grant_type' => 'client_credentials'
         ));
-        
         if($this->curl->error) return $this->error();
 
         $this->curl->post($this->base . '/api/oauth/provider/' .  $this->appId . '/' . $istid . '?access_token=' . $this->curl->response->access_token);
